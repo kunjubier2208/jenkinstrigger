@@ -1,0 +1,45 @@
+= Glossar
+
+== Daten
+Abrechnungsregel:: Vorgaben, wie die Abrechnung erfolgen soll
+PI::: Abrechnung via Projektinfrastruktur +
+  Abrechnung erfolgt auf Basis des Personalaufwands
+PW::: Abrechnung via Projektwerkzeug (Standardvorgehen) +
+  Abrechnung erfolgt auf Basis der tatsächlich genutzten Werkzeuge
+Personalaufwand:: Zeitanschreibungen
+Werkzeugnutzung:: Werkzeugnutzungen (für die dokumentierten Werkzeuge)
+
+== Model
+Buchungsziel:: Interner SAfIR-Auftrag, identifiziert durch seine jahresübergreifende Auftragsnummer +
+  Stammdaten, Ist-Buchungen und Soll-Buchungen
+Konto:: Personenkonto, identifiziert durch den Benutzernamen (i.d.R. AD-Kennung) +
+  Stammdaten, Abrechnungsregel, Personalaufwand, Werkzeugnutzung
+Verbrauchsbuchungen:: Buchungssatz für SAfIR
+
+Menge:: Mengenangaben zur Verrechung
+Monat:: Buchungsperioden
+Werkzeug:: Die Namensgebung für Werkzeuge folgt dem Schema Anfangsbuchstabe Werkzeug + Anfangsbuchstabe Netzsegment
+CI::: Confluence im Intranet
+GE::: Gitlab im Extranet
+GI::: Gitlab im Intranet
+JE::: JIRA im Extranet
+JI::: JIRA im Intranet
+
+Repository:: Datenspeicher
+
+== Spezialaufträge
+99999990:: Java CC +
+  Eigene Konten (Adminkonten, Mitarbeiterkonten, Systemkonten) werden nicht abgerechnet.
+99999991:: Dauerhafte Freistellungen +
+  Z.B. für AGs, Nicht-Java-Projekte, …
+99999992:: Temporäre Freistellungen +
+  Testkonten, Deaktivierung; WVL gibt Zeitpunkt der Prüfung an -> Verpflichtung besteht (nach Absprache) nicht
+99999993:: Abschreibungen +
+  Vertriebsunterstützung und andere Kleinstaufträge, Werkzeugeinführungen, … -> Verpflichtung bestände, wird aber nicht eingetrieben
+99999994:: Personalstunden Kostenstelle
+99999995:: Zweitkonto / Alternative Kennung bei JavaEntw.
+99999999:: Offene Punkte +
+  Zielauftrag noch zu bestimmen
+
+
+  

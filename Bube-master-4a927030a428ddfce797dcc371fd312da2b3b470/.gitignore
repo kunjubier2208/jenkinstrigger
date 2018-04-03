@@ -1,0 +1,8 @@
+# Erzeugter Code
+/target/
+# Ergebnisdaten
+/out/
+# Projektdaten Eclipse
+/.classpath
+/.project
+/.settings/
